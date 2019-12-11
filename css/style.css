@@ -1,0 +1,124 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #f6f5f1;
+}
+#page{
+	width: 1000px;
+	margin: 0px auto;
+}
+nav#main-nav{
+	/*background-color: yellow;*/
+}
+#body-page{
+	background-color: #fff;
+	min-height: 500px;
+}
+
+section#left-page{
+	width: 750px;
+	padding: 10px;
+	 float: left;
+	/* background-color: cyan;*/
+}
+
+aside{
+	width: 250px;
+	padding: 10px; 
+	float: right;
+	/*background-color: yellow;*/
+}
+.clr{ clear: both; }
+footer#footer-page{
+	min-height: 100px;
+	background-color: #252525;
+}
+
+/* khoi */
+.block{
+	width: 100%;
+	-webkit-box-shadow: 0 7px 5px 0 #D4D4D4;
+	box-shadow: 0 7px 5px 0 #D4D4D4;
+	margin-bottom: 20px;
+}
+.block header{
+	border-top: 3px solid #08afe3;
+	border-bottom: 1px solid #ccc;
+}
+.block header h3{
+	text-transform: uppercase;
+	text-align: center;
+	margin: 5px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #5d5d5d;
+	font-size: 0.95em;
+}
+.block .content-block{
+	padding: 10px;
+}
+/*	thanh menu ngang */
+#main-nav{
+}
+#main-nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	background: #82bcea;
+	background: -moz-linear-gradient(left, #82bcea 0%, #60abf8 44%, #1d5699 100%);
+	background: -webkit-linear-gradient(left, #82bcea 0%,#60abf8 44%,#1d5699 100%);
+	background: linear-gradient(to right, #82bcea 0%,#60abf8 44%,#1d5699 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82bcea', endColorstr='#1d5699',GradientType=1 );
+
+	border-bottom: 3px solid #5b5c57;
+	font-size: 0px;
+}
+#main-nav ul li{
+	display: inline-block;
+	font-size: 1rem;
+}
+#main-nav ul li a{
+	font-family: Arial;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	color: #fff;
+	border-right: 1px solid #fff;
+}
+#main-nav ul li:last-child a{
+	border-right: none;
+}
+#main-nav ul li a:hover, #main-nav ul li.active a{
+	background-color: #222327;
+}
+
+/*--- phan noi dung */
+#slide-show img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.rec-post .content-block .hot img{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.rec-post ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.rec-post ul li{
+	/*display: inline-block;*/
+	width: 50%;
+	float: left; 
+}
+.rec-post ul li img{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.rec-post h3{
+	margin: 3px 0px;
+}
